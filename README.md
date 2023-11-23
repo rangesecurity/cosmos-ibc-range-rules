@@ -31,6 +31,7 @@ This repository contains the public and open-source set of rules built and run b
 - **relayer-low-on-funds:** Rule that detects when the balance of a relayer goes below a certain threshold
 - **slashing-msg-unjail:** Rule that triggers when a validator is unjailed
 - **slashing-msg-update-params:** Rule that triggers when the parameters of the `slashing` module are updated
+- **undefined-slash:** Rule that detects if an unknown slash event occurs for a consumer chain
 - **vsc-matured:** Rule that triggers when the validator set change(VSC) reaches maturity on the consumer chain
 
 - ## License
